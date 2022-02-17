@@ -1,0 +1,195 @@
+
+                                        --------------------------------------------
+                                        --------------------------------------------
+                                        |          PHONE BOOK APPLICATION          |
+                                        --------------------------------------------
+                                        |                                          |
+                                        |       [1]  Add Contacts                  |
+                                        |       [2]  Search by Name                |
+                                        |       [3]  Search by Prefix              |
+                                        |       [4]  Delete Data                   |
+                                        |       [5]  Show Recommendations          |
+                                        |                                          |
+                                        --------------------------------------------
+                                        |            [6]    Exit                   |
+                                        --------------------------------------------
+                                Enter your choice 1
+                                                 Please Enter Name :
+                                                 apple
+                                                 Please Enter Phone No :
+                                                 123
+                                                 ***Data Added Successfully ***
+
+                                        --------------------------------------------
+                                        --------------------------------------------
+                                        |          PHONE BOOK APPLICATION          |
+                                        --------------------------------------------
+                                        |                                          |
+                                        |       [1]  Add Contacts                  |
+                                        |       [2]  Search by Name                |
+                                        |       [3]  Search by Prefix              |
+                                        |       [4]  Delete Data                   |
+                                        |       [5]  Show Recommendations          |
+                                        |                                          |
+                                        --------------------------------------------
+                                        |            [6]    Exit                   |
+                                        --------------------------------------------
+                                Enter your choice 1
+                                                 Please Enter Name :
+                                                 apxl
+                                                 Please Enter Phone No :
+                                                 456
+                                                 ***Data Added Successfully ***
+
+                                        --------------------------------------------
+                                        --------------------------------------------
+                                        |          PHONE BOOK APPLICATION          |
+                                        --------------------------------------------
+                                        |                                          |
+                                        |       [1]  Add Contacts                  |
+                                        |       [2]  Search by Name                |
+                                        |       [3]  Search by Prefix              |
+                                        |       [4]  Delete Data                   |
+                                        |       [5]  Show Recommendations          |
+                                        |                                          |
+                                        --------------------------------------------
+                                        |            [6]    Exit                   |
+                                        --------------------------------------------
+                                Enter your choice 1
+                                                 Please Enter Name :
+                                                 bacx
+                                                 Please Enter Phone No :
+                                                 753
+                                                 ***Data Added Successfully ***
+
+                                        --------------------------------------------
+                                        --------------------------------------------
+                                        |          PHONE BOOK APPLICATION          |
+                                        --------------------------------------------
+                                        |                                          |
+                                        |       [1]  Add Contacts                  |
+                                        |       [2]  Search by Name                |
+                                        |       [3]  Search by Prefix              |
+                                        |       [4]  Delete Data                   |
+                                        |       [5]  Show Recommendations          |
+                                        |                                          |
+                                        --------------------------------------------
+                                        |            [6]    Exit                   |
+                                        --------------------------------------------
+                                Enter your choice 1
+                                                 Please Enter Name :
+                                                 apps
+                                                 Please Enter Phone No :
+                                                 963
+                                                 ***Data Added Successfully ***
+
+                                        --------------------------------------------
+                                        --------------------------------------------
+                                        |          PHONE BOOK APPLICATION          |
+                                        --------------------------------------------
+                                        |                                          |
+                                        |       [1]  Add Contacts                  |
+                                        |       [2]  Search by Name                |
+                                        |       [3]  Search by Prefix              |
+                                        |       [4]  Delete Data                   |
+                                        |       [5]  Show Recommendations          |
+                                        |                                          |
+                                        --------------------------------------------
+                                        |            [6]    Exit                   |
+                                        --------------------------------------------
+                                Enter your choice 2
+                                        Please Enter name to check: apps
+                                                 Contact exists!!
+
+                                        --------------------------------------------
+                                        --------------------------------------------
+                                        |          PHONE BOOK APPLICATION          |
+                                        --------------------------------------------
+                                        |                                          |
+                                        |       [1]  Add Contacts                  |
+                                        |       [2]  Search by Name                |
+                                        |       [3]  Search by Prefix              |
+                                        |       [4]  Delete Data                   |
+                                        |       [5]  Show Recommendations          |
+                                        |                                          |
+                                        --------------------------------------------
+                                        |            [6]    Exit                   |
+                                        --------------------------------------------
+                                Enter your choice 3
+                                        Please Enter prefix to check: ap
+                                                 Contact exists with this prefix!!
+
+                                        --------------------------------------------
+                                        --------------------------------------------
+                                        |          PHONE BOOK APPLICATION          |
+                                        --------------------------------------------
+                                        |                                          |
+                                        |       [1]  Add Contacts                  |
+                                        |       [2]  Search by Name                |
+                                        |       [3]  Search by Prefix              |
+                                        |       [4]  Delete Data                   |
+                                        |       [5]  Show Recommendations          |
+                                        |                                          |
+                                        --------------------------------------------
+                                        |            [6]    Exit                   |
+                                        --------------------------------------------
+                                Enter your choice 5
+                                        Please enter the prefix: ap
+                                                 apple
+                                                 apps
+                                                 apxl
+
+                                        --------------------------------------------
+                                        --------------------------------------------
+                                        |          PHONE BOOK APPLICATION          |
+                                        --------------------------------------------
+                                        |                                          |
+                                        |       [1]  Add Contacts                  |
+                                        |       [2]  Search by Name                |
+                                        |       [3]  Search by Prefix              |
+                                        |       [4]  Delete Data                   |
+                                        |       [5]  Show Recommendations          |
+                                        |                                          |
+                                        --------------------------------------------
+                                        |            [6]    Exit                   |
+                                        --------------------------------------------
+                                Enter your choice 4
+                                        Please Enter name to delete : apps
+
+                                 ***Data Deleted Successfully ***
+
+                                        --------------------------------------------
+                                        --------------------------------------------
+                                        |          PHONE BOOK APPLICATION          |
+                                        --------------------------------------------
+                                        |                                          |
+                                        |       [1]  Add Contacts                  |
+                                        |       [2]  Search by Name                |
+                                        |       [3]  Search by Prefix              |
+                                        |       [4]  Delete Data                   |
+                                        |       [5]  Show Recommendations          |
+                                        |                                          |
+                                        --------------------------------------------
+                                        |            [6]    Exit                   |
+                                        --------------------------------------------
+                                Enter your choice 5
+                                        Please enter the prefix: ap
+                                                 apple
+                                                 apxl
+
+                                        --------------------------------------------
+                                        --------------------------------------------
+                                        |          PHONE BOOK APPLICATION          |
+                                        --------------------------------------------
+                                        |                                          |
+                                        |       [1]  Add Contacts                  |
+                                        |       [2]  Search by Name                |
+                                        |       [3]  Search by Prefix              |
+                                        |       [4]  Delete Data                   |
+                                        |       [5]  Show Recommendations          |
+                                        |                                          |
+                                        --------------------------------------------
+                                        |            [6]    Exit                   |
+                                        --------------------------------------------
+                                Enter your choice 8
+                                        THANK YOU !
