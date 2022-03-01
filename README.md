@@ -3,6 +3,10 @@
 # Trie
 Data structure and relevant algorithms for extremely fast prefix/fuzzy string searching.
 
+## Demo || Working
+ 
+Open the [folder](https://github.com/shinchancode/Trie-Data-structure/blob/main/Output) to view the working and output..
+
 ## Usage
 
 Create a Trie with:
@@ -63,7 +67,7 @@ Fork this repo and run tests with:
 
 <br />
 
-[website]: https://aartirathi17.herokuapp.com/
+[website]: https://shinchancode.github.io/React-Portfolio/
 [twitter]: https://twitter.com/CodeShinchan
 [instagram]: https://www.instagram.com/shinchann_code/
 [linkedin]: https://www.linkedin.com/in/aarti-rathi-a6031814b/
