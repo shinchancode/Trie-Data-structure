@@ -7,7 +7,6 @@ int menu()
 {
     cout<<"\n";
     cout<<"\t\t\t\t\t--------------------------------------------\n";
-    cout<<"\t\t\t\t\t--------------------------------------------\n";
     cout<<"\t\t\t\t\t|          PHONE BOOK APPLICATION          |\n";
     cout<<"\t\t\t\t\t--------------------------------------------\n";
     cout<<"\t\t\t\t\t|                                          |\n";
@@ -15,17 +14,18 @@ int menu()
     cout<<"\t\t\t\t\t|       [2]  Search by Name                |\n";
     cout<<"\t\t\t\t\t|       [3]  Search by Prefix              |\n";
     cout<<"\t\t\t\t\t|       [4]  Delete Data                   |\n";
-    cout<<"\t\t\t\t\t|       [5]  Show Recommendations          |\n";
+    cout<<"\t\t\t\t\t|       [5]  Show Prefixes                 |\n";
     cout<<"\t\t\t\t\t|                                          |\n";
     cout<<"\t\t\t\t\t--------------------------------------------\n";
     cout<<"\t\t\t\t\t|            [6]    Exit                   |\n";
     cout<<"\t\t\t\t\t--------------------------------------------\n";
-    cout<<"\t\t\t\tEnter your choice ";
+    cout<<"\n";
+    cout<<"\t\t\t\t\tEnter your choice : ";
 
-    int a;
-    cin>>a;
+    int choice;
+    cin>>choice;
     
-    return a;
+    return choice;
 }
 
 
@@ -33,86 +33,88 @@ int main()
 {    
     Trie *t = new Trie();
 
-    int ch = menu();
+    int choice = menu();
     do
     {
 
-        if(ch==1)
+        if(choice==1)
         {
 
-            cout<<"\t\t\t\t\t\t Please Enter Name :\n";
-            cout<<"\t\t\t\t\t\t ";
+            cout<<"\t\t\t\t\t\t Please Enter Name : ";
             string s,num;
             cin>>s;
-            cout<<"\t\t\t\t\t\t Please Enter Phone No :\n";
-            cout<<"\t\t\t\t\t\t ";
+            cout<<"\t\t\t\t\t\t Please Enter Contact No : ";
             cin>>num;
+            
             if(t->search(s))
             { 
-                cout<<"\t\t\t\t\t!!!!Name already exists!!!!\n\n";
+                cout<<"\n\t\t\t\t\t\t Data already exists\n";
             }
-
-
-
-           t->insert(s, num);
-
+            else
+            {
+                t->insert(s, num);
+            }
        }
 
-       else if(ch==2)
+       else if(choice==2)
        {
 
-        cout<<"\t\t\t\t\tPlease Enter name to check: ";
+        cout<<"\t\t\t\t\t\t Please Enter name to check: ";
         string s;
         cin>>s;
         bool ok = t->search(s);
         if(ok)
-            cout<<"\t\t\t\t\t\t Contact exists!! \n";
+            cout<<"\n\t\t\t\t\t\t Contact exists \n";
         else
-            cout<<"\t\t\t\t\t\t Contact does not exists !! \n";
+            cout<<"\n\t\t\t\t\t\t Contact does not exist !! \n";
 
         }
 
-        else if(ch==3)
+        else if(choice==3)
        {
 
-        cout<<"\t\t\t\t\tPlease Enter prefix to check: ";
+        cout<<"\t\t\t\t\t\t Please Enter prefix to check: ";
         string s;
         cin>>s;
         
         bool ok = t->starts_with(s);
         if(ok)
-            cout<<"\t\t\t\t\t\t Contact exists with this prefix!! \n";
+            cout<<"\n\t\t\t\t\t\t Contact exists with this prefix!! \n";
         else
-            cout<<"\t\t\t\t\t\t No Contact exists with this prefix!! \n";
+            cout<<"\n\t\t\t\t\t\t Contact does not exist with this prefix!! \n";
 
         }
 
-        else if(ch==4)
+        else if(choice==4)
         {
 
-            cout<<"\t\t\t\t\tPlease Enter name to delete : ";
+            cout<<"\t\t\t\t\t\t Please Enter name to delete : ";
             string n;
             cin>>n;
             t->remove(n);
 
         }
 
-        else if(ch==5)
+        else if(choice==5)
         {
 
-            cout<<"\t\t\t\t\tPlease enter the prefix: ";
+            cout<<"\t\t\t\t\t\t Please Enter the prefix: ";
             string na;
             cin>>na;
 
             t->show_recommendations(na);
         }
+        else
+        {
+            break;
+        }
 
-        ch=menu();
+        choice=menu();
     }
 
-    while(ch<=5 && ch>=1);
+    while(choice<=5 && choice>=1);
 
-    cout<<"\t\t\t\t\tTHANK YOU !";
+    cout<<"\n\t\t\t\t\t\t\tTHANK YOU !";
 
     return 0;
 }
