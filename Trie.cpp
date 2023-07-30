@@ -56,7 +56,7 @@ public:
 
 		temp->is_last.first = 1;
 		temp->is_last.second = phn_no;
-		cout<<"\t\t\t\t\t\t ***Data Added Successfully *** \n";
+		cout<<"\n\t\t\t\t\t\t Data Added Successfully \n";
 	}
 
 
@@ -128,12 +128,12 @@ public:
 		if(check)
 		{
 			temp->is_last.first=false;
-			cout<<"\n\t\t\t\t ***Data Deleted Successfully ***\n";
+			cout<<"\n\t\t\t\t\t\t Data Deleted Successfully \n";
 			return;
 		}
 		else
 		{
-			cout<<"Please enter a Valid Name\n";
+			cout<<"\n\t\t\t\t\t\t Invalid!! Please Enter a valid name\n";
 		}
 	}
 
@@ -165,7 +165,7 @@ public:
 
 		if(!starts_with(incom_word))
 		{
-			cout<<"Sorry! We cannot find the word regarding this ";
+			cout<<"\n\t\t\t\t\t\t Invalid!! Please Enter a valid Prefix\n";
 			return ;
 		}
 		else
