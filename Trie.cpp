@@ -1,3 +1,8 @@
+/*
+	Name : Aarti Rathi
+ 	Wesbite : https://shinchancode.github.io/3d-react-portfolio/
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
