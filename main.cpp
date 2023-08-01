@@ -1,3 +1,8 @@
+/*
+	Name : Aarti Rathi
+ 	Wesbite : https://shinchancode.github.io/3d-react-portfolio/
+*/
+
 #include<bits/stdc++.h> 
 #include "Trie.cpp"
 #include<windows.h>
