@@ -3,7 +3,7 @@ Trie is a tree-based data structure, which is used for efficient retrieval of a 
 
 It is a type of k-ary search tree used for storing and searching a specific key from a set. Using Trie, search complexities can be brought to optimal limit (key length).
 
-# Trie
+# Trie Data
 Data structure and relevant algorithms for extremely fast prefix/fuzzy string searching.
 
 
